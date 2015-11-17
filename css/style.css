@@ -292,19 +292,17 @@ footer p {
 @media screen and (max-width: 768px){
 
   nav ul{
-    display:none;
-  }
-  nav ul:first-child{
-    display:block;
-    width: 30%;
-    float: right;
-    clear: both;
+    width: 50%;
   }
 
-  .container, div p, div li, div blockquote{
-    width:70%;
+  .container, #sidebar{
+    width:95%;
   }
 
+  h3, ul, img{
+    text-align: center;
+  }
+  aside img{
+    text-align: center;
+  }
 }
-
-
